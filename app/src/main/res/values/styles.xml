@@ -1,0 +1,67 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat">
+        <!-- Palette -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <!-- Bars -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+        <item name="android:navigationBarDividerColor">@color/primary_light</item>
+
+        <!-- Control -->
+        <item name="android:colorPressedHighlight">@color/accent_dark</item>
+        <item name="android:colorLongPressedHighlight">@color/accent_light</item>
+        <item name="android:colorFocusedHighlight">@color/secondary</item>
+        <item name="android:colorActivatedHighlight">@color/secondary_light</item>
+        <item name="android:colorMultiSelectHighlight">@color/secondary_dark</item>
+
+        <item name="colorButtonNormal">@color/accent</item>
+        <item name="colorSwitchThumbNormal">@color/accent</item>
+        <item name="android:colorControlNormal">@color/accent</item>
+        <item name="android:colorControlHighlight">@color/accent_dark</item>
+        <item name="android:colorControlActivated">@color/accent_light</item>
+
+        <item name="cardViewStyle">@style/AppTheme.CardView</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="AppTheme.CardView" parent="CardView.Dark">
+        <item name="cardCornerRadius">5dp</item>
+        <item name="cardElevation">5dp</item>
+        <item name="contentPadding">8dp</item>
+    </style>
+
+    <style name="Widget.Design.TextInputLayout" parent="android:Widget">
+        <item name="android:colorControlNormal">@color/light_idle</item>
+        <item name="android:colorControlHighlight">@color/light</item>
+        <item name="android:colorControlActivated">@color/accent</item>
+        <item name="hintTextAppearance">@style/TextAppearance.Design.Hint</item>
+        <item name="errorTextAppearance">@style/TextAppearance.Design.Error</item>
+        <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
+        <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+        <item name="passwordToggleDrawable">@drawable/ic_password</item>
+        <item name="passwordToggleTint">@color/tint_password_toggle</item>
+    </style>
+    <style name="TextAppearance.Design.Hint" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?attr/colorControlActivated</item>
+    </style>
+    <style name="TextAppearance.Design.Error" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/tint_error</item>
+    </style>
+    <style name="TextAppearance.Design.Counter" parent="TextAppearance.AppCompat.Caption"/>
+    <style name="TextAppearance.Design.Counter.Overflow" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/tint_error</item>
+    </style>
+
+</resources>

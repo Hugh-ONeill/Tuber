@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Swatches -->
+
+    <!-- Greyscale -->
+    <color name="white">#ffffff</color>
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_850">#303030</color>
+    <color name="grey_900">#212121</color>
+    <color name="black">#000000</color>
+
+    <!-- Opacity Scale White -->
+    <color name="white_90">#E6FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_10">#1AFFFFFF</color>
+
+    <!-- Opacity Scale Black -->
+    <color name="black_90">#E6000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_10">#1A000000</color>
+
+    <!-- Blue Grey --> <!-- Light Backgrouund -->
+    <color name="blue_grey_50">#ECEFF1</color>
+    <color name="blue_grey_100">#CFD8DC</color>
+    <color name="blue_grey_200">#B0BEC5</color>
+    <color name="blue_grey_300">#90A4AE</color>
+    <color name="blue_grey_400">#78909C</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_800">#37474F</color>
+    <color name="blue_grey_900">#263238</color>
+
+    <!-- Indigo -->
+    <color name="indigo_50">#E8EAF6</color>
+    <color name="indigo_100">#C5CAE9</color>
+    <color name="indigo_200">#9FA8DA</color>
+    <color name="indigo_300">#7986CB</color>
+    <color name="indigo_400">#5C6BC0</color>
+    <color name="indigo_500L">#757de8</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="indigo_500D">#002984</color>
+    <color name="indigo_600">#3949AB</color>
+    <color name="indigo_700L">#666ad1</color>
+    <color name="indigo_700">#303f9f</color>
+    <color name="indigo_700D">#001970</color>
+    <color name="indigo_800">#283593</color>
+    <color name="indigo_900">#1A237E</color>
+    <color name="indigo_A100">#8C9EFF</color>
+    <color name="indigo_A200">#536DFE</color>
+    <color name="indigo_A400">#3D5AFE</color>
+    <color name="indigo_A700">#304FFE</color>
+
+    <!-- Amber -->
+    <color name="amber_50">#FFF8E1</color>
+    <color name="amber_100">#FFECB3</color>
+    <color name="amber_200">#FFE082</color>
+    <color name="amber_300">#FFD54F</color>
+    <color name="amber_400">#FFCA28</color>
+    <color name="amber_500L">#fff350</color>
+    <color name="amber_500">#FFC107</color>
+    <color name="amber_500D">#c79100</color>
+    <color name="amber_600">#FFB300</color>
+    <color name="amber_700">#FFA000</color>
+    <color name="amber_800">#FF8F00</color>
+    <color name="amber_900">#FF6F00</color>
+    <color name="amber_A100">#FFE57F</color>
+    <color name="amber_A200">#FFD740</color>
+    <color name="amber_A400">#FFC400</color>
+    <color name="amber_A700">#FFAB00</color>
+
+    <!-- General Theme -->
+
+    <!-- Primary -->
+    <color name="primary_lighter">@color/indigo_100</color>
+    <color name="primary_light">@color/indigo_300</color>
+    <color name="primary">@color/indigo_500</color>
+    <color name="primary_dark">@color/indigo_900</color>
+    <color name="primary_darker">@color/indigo_700D</color>
+
+    <!-- Accent -->
+    <color name="accent_light">@color/amber_200</color>
+    <color name="accent">@color/amber_500</color>
+    <color name="accent_dark">@color/amber_800</color>
+
+    <!-- Secondary -->
+    <color name="secondary_light">@color/indigo_A100</color>
+    <color name="secondary">@color/indigo_A200</color>
+    <color name="secondary_dark">@color/indigo_A700</color>
+
+    <!-- Complimentary -->
+    <color name="complimentary_light">@color/amber_A100</color>
+    <color name="complimentary">@color/amber_A200</color>
+    <color name="complimentary_dark">@color/amber_A700</color>
+
+    <!-- UI -->
+
+    <!-- Background -->
+    <color name="background_lighter">@color/white</color>
+    <color name="background_light">@color/blue_grey_50</color>
+    <color name="background">@color/blue_grey_100</color>
+    <color name="background_dark">@color/blue_grey_200</color>
+    <color name="background_darker">@color/blue_grey_400</color>
+
+    <!-- Bars -->
+    <color name="status_bar">@color/primary_dark</color>
+    <color name="navigation_bar">@color/primary</color>
+    <color name="navigation_bar_divider">@color/primary_light</color>
+
+    <!-- Buttons / Switches / Sliders -->
+    <color name="button_unpressed">@color/accent</color>
+    <color name="button_pressed">@color/accent_dark</color>
+    <color name="switch_unchecked">@color/accent</color>
+    <color name="switch_checked">@color/accent_dark</color>
+
+    <!-- Text -->
+    <color name="light">@color/white</color>
+    <color name="light_disable">@color/white_50</color>
+    <color name="light_idle">@color/white_70</color>
+    <color name="light_hint">@color/white_50</color>
+</resources>

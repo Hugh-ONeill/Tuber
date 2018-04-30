@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "210239345032",
+    "firebase_url": "https://tuber-app.firebaseio.com",
+    "project_id": "tuber-app",
+    "storage_bucket": "tuber-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210239345032:android:e6217aa9edb94b9e",
+        "android_client_info": {
+          "package_name": "edu.pitt.coe.tuber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210239345032-oeeglkr4usqnehpe523qhvc92deom422.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.pitt.coe.tuber",
+            "certificate_hash": "0b6e9ad0572af3376e5ba4412a386abf0b855445"
+          }
+        },
+        {
+          "client_id": "210239345032-h048oadllniodqo2monfiv3vf5fr9mog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ECGzcWKdOL75SC9snfZnLAz0vbXiFJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210239345032-h048oadllniodqo2monfiv3vf5fr9mog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
